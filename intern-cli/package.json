@@ -1,0 +1,65 @@
+{
+  "_from": "intern-cli",
+  "_id": "intern-cli@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-MoIoldgLE/4l1qFnRM8y/1MRiQs=",
+  "_location": "/intern-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "intern-cli",
+    "name": "intern-cli",
+    "escapedName": "intern-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/intern-cli/-/intern-cli-0.1.2.tgz",
+  "_shasum": "32822895d80b13fe25d6a16744cf32ff5311890b",
+  "_spec": "intern-cli",
+  "_where": "C:\\Users\\hsbc",
+  "bin": {
+    "intern": "./bin/intern.js"
+  },
+  "bugs": {
+    "url": "https://github.com/theintern/intern-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commander": "2.9.0",
+    "opn": "4.0.2",
+    "resolve": "1.1.7",
+    "semver": "5.2.0"
+  },
+  "deprecated": false,
+  "description": "The command line interface for Intern",
+  "devDependencies": {
+    "intern": "3.2.3"
+  },
+  "engines": {
+    "node": ">0.12"
+  },
+  "homepage": "http://theintern.github.io/",
+  "keywords": [
+    "javascript",
+    "test",
+    "unit",
+    "testing",
+    "intern"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "intern-cli",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theintern/intern-cli.git"
+  },
+  "scripts": {
+    "test": "node node_modules/intern/client.js config=tests/intern"
+  },
+  "version": "0.1.2"
+}
